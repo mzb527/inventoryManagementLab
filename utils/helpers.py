@@ -7,10 +7,10 @@ def validate_inventory_item(data):
         return False, f"Missing fields: {', '.join(missing_fields)}"
     
     if not isinstance(data.get("quantity"), int) or data["quantity"] < 0:
-        return False, "Quantity must be a positive integer."
+        return False, "Quantity must be a non-negative integer."
     
     if not isinstance(data.get("price"), (int, float)) or data["price"] < 0:
-        return False, "Price must be a positive number."
+        return False, "Price must be a non-negative number."
     
     return True, "Valid data."
 
