@@ -14,7 +14,7 @@ Follow these steps to set up the project:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/mzb527/inventoryManagementLab>
    cd inventory-management
 2.   - Install Dependencies Run the following command to install required libraries:
 pip install -r requirements.txt
