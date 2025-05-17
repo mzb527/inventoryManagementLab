@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Almond Milk",
+        "brand": "Silk",
+        "barcode": "123456789",
+        "ingredients": "Filtered water, almonds, cane sugar...",
+        "quantity": 10,
+        "price": 3.99
+    },
+    {
+        "id": 2,
+        "name": "Whole Grain Bread",
+        "brand": "Nature's Own",
+        "barcode": "987654321",
+        "ingredients": "Whole wheat, yeast, salt...",
+        "quantity": 20,
+        "price": 2.49
+    }
+]
